@@ -41,7 +41,7 @@ public abstract class AbstractTypeDescriptor<T> implements BasicJavaDescriptor<T
 	}
 
 	/**
-	 * Initialize a type descriptor for the given type.  Assumed immutable.
+	 * Initialize a type descriptor for the given type and mutability plan.
 	 *
 	 * @param type The Java type.
 	 * @param mutabilityPlan The plan for handling mutability aspects of the java type.
